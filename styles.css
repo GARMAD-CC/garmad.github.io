@@ -444,7 +444,7 @@ img {
     width: auto;
     max-height: 100px;
     margin: 0 auto 0.6rem;
-    object-fit: contain;
+    object-fit: cover;
     display: block;
 }
 
