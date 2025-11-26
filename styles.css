@@ -427,8 +427,8 @@ img {
 /* Galería de proyectos */
 .gallery-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
-    gap: 1.2rem;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 1.5rem;
     margin-top: 1.5rem;
 }
 
@@ -441,10 +441,10 @@ img {
 }
 
 .gallery-item img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
     display: block;
-    max-width: 90px; 
-    height: auto;    
-    margin: 0 auto 0.5rem;;
 }
 
 .gallery-item figcaption {
