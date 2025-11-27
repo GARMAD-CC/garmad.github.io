@@ -199,7 +199,13 @@
                     </p>
                 </div>
                 <div>
-                    <form class="contact-form">
+                    <form class="contact-form"
+                     action="https://formsubmit.co/garmad.cc@gmail.com" 
+                      method="POST">
+
+                    <input type="hidden" name="_captcha" value="false">
+                    <input type="hidden" name="_next" value="https://garmad.github.io/gracias.html">
+                        
                         <h3>Envíanos un mensaje</h3>
                         <label>
                             Nombre
@@ -213,7 +219,7 @@
                             Mensaje
                             <textarea name="mensaje" rows="4" placeholder="Describe brevemente tu proyecto o consulta"></textarea>
                         </label>
-                        <button type="submit" class="btn-primary" disabled>
+                        <button type="submit" class="btn-primary">
                             Enviar
                         </button>
                        
