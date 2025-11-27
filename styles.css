@@ -442,10 +442,10 @@ img {
 
 .gallery-item img {
     display: block;
-    max-height: 100px;
-    width: auto;
-    margin: 0 auto 0.6rem; 
-    object-fit: contain;
+    width: 50%;
+    height: auto;
+    max-height: none;
+    margin: 0 0 0.6rem;
 }
 
 .gallery-item figcaption {
