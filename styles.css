@@ -427,7 +427,7 @@ img {
 /* Galería de proyectos */
 .gallery-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
     gap: 1.5rem;
     margin-top: 1.5rem;
 }
@@ -441,11 +441,11 @@ img {
 }
 
 .gallery-item img {
-    width: auto;
-    max-height: 180px;
-    margin: 0 auto 0.6rem;
-    object-fit: cover;
     display: block;
+    max-height: 100px;
+    width: auto;
+    margin: 0 auto 0.6rem; 
+    object-fit: contain;
 }
 
 .gallery-item figcaption {
